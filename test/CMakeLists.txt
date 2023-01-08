@@ -8,6 +8,7 @@ add_executable(${EXEC_NAME}
 
 target_include_directories(${EXEC_NAME} PRIVATE
     ${CMAKE_SOURCE_DIR}/hw
+    ${CMAKE_SOURCE_DIR}/common
 )
 
 target_link_libraries(${EXEC_NAME}
